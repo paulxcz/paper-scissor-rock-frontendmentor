@@ -1,0 +1,11 @@
+@import './bottonStyles.scss';
+$RockGradient: radial-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+
+.rock-border-gradiant{
+    @include icon-border-gradiant( $RockGradient, #A31732  );
+    cursor: pointer;
+    .icon-container {
+      @include icon-container();
+
+    }
+}

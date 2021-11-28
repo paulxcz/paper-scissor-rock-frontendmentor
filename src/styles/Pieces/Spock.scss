@@ -1,0 +1,11 @@
+@import './bottonStyles.scss';
+$SpockGradient: radial-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+
+.spock-border-gradiant{
+    @include icon-border-gradiant( $SpockGradient, #298EAA  );
+    cursor: pointer;
+    .icon-container {
+      @include icon-container();
+
+    }
+}

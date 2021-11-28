@@ -1,0 +1,70 @@
+.rules-details {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  padding-top: 95px;
+  padding-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rules-details h1 {
+  color: #3b4363;
+}
+
+.rules-details .rule-image {
+  width: 80%;
+  max-width: 357px;
+}
+
+.rules-details .close-rule-details {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .rules-details-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+  }
+  .rules-details {
+    width: 400px;
+    height: 462px;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    padding-bottom: 42px;
+    padding-top: 17px;
+  }
+  .rules-details .rule-image {
+    width: 80%;
+  }
+  .rules-details .close-rule-details {
+    position: absolute;
+    top: 30px;
+    right: 28px;
+  }
+}
+/*# sourceMappingURL=RulesDetails.css.map */

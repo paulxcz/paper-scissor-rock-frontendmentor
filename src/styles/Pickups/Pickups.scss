@@ -1,0 +1,118 @@
+.pickups {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  //   border: solid 1px black;
+  // margin-top: 105px;
+  // margin-bottom: 180px;
+  padding: 30px 0;
+
+  .pick1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .pick1 {
+      width: 112px;
+      height: 109px;
+      border-radius: 50%;
+      background-color: #192845; //192845
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+
+      &.shadow {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.3),
+          0 0 0 40px rgba(0, 0, 0, 0.25), 0 0 0 55px rgba(0, 0, 0, 0.15),
+          0 0 0 55px rgba(0, 0, 0, 0.1);
+      }
+
+      div {
+        position: static;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    h3 {
+      color: #fff;
+      text-align: center;
+      letter-spacing: 2px;
+      font-size: 12px;
+    }
+  }
+  .pick2-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .pick2 {
+      width: 112px;
+      height: 109px;
+      border-radius: 50%;
+      background-color: #192845;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+
+      &.shadow {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.3),
+          0 0 0 40px rgba(0, 0, 0, 0.25), 0 0 0 55px rgba(0, 0, 0, 0.15),
+          0 0 0 55px rgba(0, 0, 0, 0.1);
+      }
+      div {
+        position: static;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    h3 {
+      color: #fff;
+      text-align: center;
+      letter-spacing: 2px;
+      font-size: 12px;
+    }
+  }
+}
+
+@media screen and(min-width: 1000px) {
+  .pickups {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+
+    .pick1-container {
+      display: flex;
+      flex-direction: column-reverse;
+
+      .pick1 {
+        width: 217px;
+        height: 223px;
+      }
+
+      h3{
+        margin-bottom: 60px;
+        font-size: 20px;
+      }
+    }
+
+    .pick2-container {
+      display: flex;
+      flex-direction: column-reverse;
+
+      .pick2 {
+        width: 217px;
+        height: 223px;
+      }
+      h3{
+        margin-bottom: 60px;
+        font-size: 20px;
+      }
+    }
+  }
+}

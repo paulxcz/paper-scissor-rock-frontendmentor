@@ -1,0 +1,45 @@
+
+//Score Banner Colors
+
+$Dark_Text: hsl(229, 25%, 31%);
+$Score_Text: hsl(229, 64%, 46%);
+$Header_Outline: hsl(217, 16%, 45%);
+
+.score-board {
+    border-radius: 6px;
+    display: flex;
+    // margin-top: 20px;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    outline: hsl(217, 16%, 45%) solid 3px;
+    max-width: 704px;
+    margin: 0 auto;
+  ul{
+      list-style: none;
+
+      li{
+          margin: 0;
+          padding: 0;
+          line-height: 0.9em;
+      }
+  }
+
+  .score{
+      background-color: #fff;
+      border-radius: 6px;
+      text-align: center;
+      padding: 12px 25px;
+
+      b{
+          letter-spacing: 1px;
+          color: $Score_Text
+      }
+      
+      h1{
+          color: $Dark_Text;
+      }
+  }
+}

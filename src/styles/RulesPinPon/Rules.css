@@ -1,0 +1,28 @@
+.rules {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.rules button {
+  border: none;
+  padding: 15px 37px;
+  border: solid 2px #606e85;
+  background: transparent;
+  border-radius: 6px;
+  color: #FFF;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+  .rules {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+/*# sourceMappingURL=Rules.css.map */

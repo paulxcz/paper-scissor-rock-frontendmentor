@@ -1,0 +1,159 @@
+.pickups {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1000px;
+  padding: 30px 0;
+}
+
+.pickups .pick1-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pickups .pick1-container .pick1 {
+  width: 112px;
+  height: 109px;
+  border-radius: 50%;
+  background-color: #192845;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.pickups .pick1-container .pick1.shadow {
+  -webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.3), 0 0 0 40px rgba(0, 0, 0, 0.25), 0 0 0 55px rgba(0, 0, 0, 0.15), 0 0 0 55px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.3), 0 0 0 40px rgba(0, 0, 0, 0.25), 0 0 0 55px rgba(0, 0, 0, 0.15), 0 0 0 55px rgba(0, 0, 0, 0.1);
+}
+
+.pickups .pick1-container .pick1 div {
+  position: static;
+  width: 100%;
+  height: 100%;
+}
+
+.pickups .pick1-container h3 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.pickups .pick2-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pickups .pick2-container .pick2 {
+  width: 112px;
+  height: 109px;
+  border-radius: 50%;
+  background-color: #192845;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.pickups .pick2-container .pick2.shadow {
+  -webkit-box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.3), 0 0 0 40px rgba(0, 0, 0, 0.25), 0 0 0 55px rgba(0, 0, 0, 0.15), 0 0 0 55px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.3), 0 0 0 40px rgba(0, 0, 0, 0.25), 0 0 0 55px rgba(0, 0, 0, 0.15), 0 0 0 55px rgba(0, 0, 0, 0.1);
+}
+
+.pickups .pick2-container .pick2 div {
+  position: static;
+  width: 100%;
+  height: 100%;
+}
+
+.pickups .pick2-container h3 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1000px) {
+  .pickups {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .pickups .pick1-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .pickups .pick1-container .pick1 {
+    width: 217px;
+    height: 223px;
+  }
+  .pickups .pick1-container h3 {
+    margin-bottom: 60px;
+    font-size: 20px;
+  }
+  .pickups .pick2-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .pickups .pick2-container .pick2 {
+    width: 217px;
+    height: 223px;
+  }
+  .pickups .pick2-container h3 {
+    margin-bottom: 60px;
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=Pickups.css.map */

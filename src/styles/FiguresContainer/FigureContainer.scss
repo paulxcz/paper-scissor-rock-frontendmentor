@@ -1,0 +1,160 @@
+$ScissorsGradient: radial-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+$PaperGradient: radial-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+$RockGradient: radial-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+$LizardGradient: radial-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+$SpockGradient: radial-gradient(hsl(189, 59%, 53%), hsl(189, 58%, 57%));
+
+@mixin icon-border-gradiant($backgroundGradiant, $colorShadow) {
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  padding: 13px;
+  background: $backgroundGradiant;
+  box-shadow: 0px 4px 0px 0px $colorShadow;
+}
+
+@mixin icon-container {
+  background-color: #e6e7e7;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.21);
+}
+.figures-container {
+    // background-color: rgba($color: #ddd, $alpha: 0.3);
+  // margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  max-width: 350px;
+  .pentagon {
+    width: 80%;
+    max-width: 350px;
+  }
+
+  .scissors-border-gradiant {
+    top: -29px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    .icon-container {
+     
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .paper-border-gradiant {
+ 
+    right: 0;
+    top: 30px;
+    .icon-container {
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .lizard-border-gradiant {
+    bottom: -32px;
+    left: 25px;
+    .icon-container {
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .rock-border-gradiant {
+    right: 25px;
+    bottom: -32px;
+    .icon-container {
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .spock-border-gradiant {
+    left: 0;
+    top: 30px;
+
+    .icon-container {
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+}
+
+@media screen and(min-width: 447px) {
+  .scissors-border-gradiant {
+    top: -29px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    .icon-container {
+     
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .paper-border-gradiant {
+ 
+    right: 0;
+    top: 30px;
+    .icon-container {
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .lizard-border-gradiant {
+    bottom: -32px;
+    left: 25px;
+    .icon-container {
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .rock-border-gradiant {
+    right: 25px;
+    bottom: -32px;
+    .icon-container {
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .spock-border-gradiant {
+    left: 0;
+    top: 30px;
+
+    .icon-container {
+
+      img {
+        width: 50%;
+      }
+    }
+  }
+}

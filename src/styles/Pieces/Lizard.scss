@@ -1,0 +1,14 @@
+@import './bottonStyles.scss';
+$LizardGradient: radial-gradient(hsl(261, 73%, 60%), hsl(261, 72%, 63%));
+
+.lizard-border-gradiant{
+    @include icon-border-gradiant( $LizardGradient, #5F32A8  );
+    cursor: pointer;
+    .icon-container {
+      @include icon-container();
+
+      img {
+        width: 50%;
+      }
+    }
+}
